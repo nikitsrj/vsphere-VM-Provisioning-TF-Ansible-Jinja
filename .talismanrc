@@ -1,0 +1,20 @@
+fileignoreconfig:
+- filename: smbc-linux/terraform.tfstate.backup
+  checksum: 363c8c644651a88d3bb2d3c61660f145c277710601d866e87548a17b910449af
+  ignore_detectors: []
+- filename: smbc-linux/ansible.yaml
+  checksum: 85a3494fac702041b69993681ed535f6b0016b393e6e2bd22e2567cb5a0dab00
+  ignore_detectors: []
+- filename: smbc-linux/.terraform/plugins/linux_amd64/lock.json
+  checksum: 0327b0bf1e8d085e8a72db47d9ed5efcc64d479a1e18f6ea5d6662701b0c8c6a
+  ignore_detectors: []
+- filename: terraform-vsphere-vm
+  checksum: 66cc625ab8330fe0addc7f5dfb161ff987d5dc590df7640a5d5ad295a7b2cb7f
+  ignore_detectors: []
+- filename: smbc-linux/provider.tf
+  checksum: b1a3bf8599d63948bf5b7afbf8a27eef3f44b2d54af8a8cad6aebfc027f1dd05
+  ignore_detectors: []
+- filename: smbc-linux/main.tf
+  checksum: 5d46b531634596b0ad7b2907e0d027a8b9867acb7db6cc78e2f5bfe14071e25e
+  ignore_detectors: []
+scopeconfig: []

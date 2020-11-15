@@ -1,0 +1,51 @@
+server_details:
+  - seqNo: "01"
+    storage: IBM
+    datastore: IDS-G400-VS-DC-DE-T2-P01-NR02
+    cpu: 4
+    site: SGDC
+    resourcepool: nicksrj
+    folder: nicksrj
+    servertype: VM
+    location: Serangoon
+    operatingsystem: Linux
+    systemcode: BOC
+    ram: 64
+    databasesoftware: MSSQL 2016
+    usagetype: Database Server
+    environment: Production_WithCustData
+    domain: DAPAC
+    IPAddress: 10.117.254.25
+    DNS: 10.118.76.34
+    Gateway: 10.118.76.1
+    Subnet: 255.255.255.0
+    drives:
+      - 100
+      - 30
+      - 20
+    hostname: SNGP1VLDSBOC01
+  - seqNo: "02"
+    storage: HITACHI
+    datastore: HDS-G400-VS-DC-DE-T2-P01-NR02
+    cpu: 4
+    site: SGDR
+    resourcepool: nicksrj
+    folder: nicksrj
+    servertype: VM
+    location: DRC
+    operatingsystem: Windows
+    systemcode: WOC
+    ram: 64
+    databasesoftware: NA
+    usagetype: Web Server
+    environment: DR
+    domain: DAPAC
+    IPAddress: 10.117.254.26
+    DNS: 10.118.76.34
+    Gateway: 10.118.76.1
+    Subnet: 255.255.255.0
+    drives:
+      - 50
+      - 20
+      - 90
+    hostname: SNGP2VWWSWOC02

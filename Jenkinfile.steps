@@ -1,0 +1,10 @@
+file upload copy to ${WORKSPACE}/smbc
+cd ${WORKSPACE}/smbc
+bash -x arrayhost.sh
+yq r --prettyPrint serv.json > tfgenerate/vars/vmtfvars.yaml
+
+cat servdetails.json  | jq .[].server_details | yq r -P - | sed  -e 's/^/  /' | sed '1i server_details:'
+cat servdetails.json | jq .[].server_details
+
+
+
